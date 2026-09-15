@@ -207,3 +207,34 @@ function MyNum1(x,y){
 }
 
 MyNum1(10,5);
+
+console.log("\n\n\n");
+
+// Arrays
+let num = [10,20,30,40];
+console.log(num);
+console.log(typeof num);
+
+let num1 =[];
+    num1[1] = 10;
+    console.log(num1[1]);
+
+
+    console.log("\n\n\n");
+
+
+    let custoemr ={
+    name: "Saman",
+    age: 20,
+    address: "Kathmandu",
+   // isActive: true
+}
+console.log(custoemr);
+console.log(custoemr.name);
+ console.log(custoemr.age);
+
+
+ let custoemr1 ={
+    name: "Saman",
+ }
+ console.log(custoemr1);
