@@ -146,3 +146,64 @@ console.log("\n\n\n");
 for(let a =0; a <= 10; a++){
     console.log(a);
 }
+
+// while loop
+
+//  let s = 0;
+//  while(s <= 10){
+    
+//  }
+console.log("\n\n\n");
+ 
+
+
+// do while loop
+ let i= 0;
+ do{
+    console.log(i);
+    i++;
+
+ }while(i <= 5);
+
+
+ let m =10;
+
+do{
+    console.log(m);
+    m--;
+}while(m <= 5);
+
+
+
+console.log("\n\n\n");
+
+
+// function.....(Method)
+function addNumber(){
+    console.log("Icet");
+}
+
+addNumber();
+addNumber();
+
+console.log("\n\n\n");
+
+function MyNum(){
+    let x =1;
+    let y =2;
+    console.log(x + y);
+    console.log(x - y);
+}
+
+MyNum(x,y);
+
+
+console.log("\n\n\n");
+
+
+function MyNum1(x,y){
+    console.log(x + y);
+    console.log(x - y);
+}
+
+MyNum1(10,5);
