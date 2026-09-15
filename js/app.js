@@ -59,6 +59,59 @@ let w = "10";
 console.log("\n\n"+(z==w)); // true
 console.log(z!=w); // false
 
+
+
 // data type eka eqauld baladdi (===) gannwa..........
 console.log("\n\n"+(z===w)); // false
 console.log(z!==w); // true
+
+
+
+// && , || , if else statement
+let p = 10;
+let q = "20";
+
+if(p==q && q >p){
+    console.log("\n\ntrue");
+}else{
+    console.log("\n\nfalse");
+}
+
+
+
+if(p==q || q >p){
+    console.log("\n\ntrue");
+}else{
+    console.log("\n\nfalse");
+}
+
+
+
+let marks = 70;
+
+    if(marks >= 75){
+        console.log("\n\nA");
+    }else if(marks >= 65){
+        console.log("\n\nB");
+    }else if(marks >= 55){
+        console.log("\n\nC");
+    }else if(marks >= 45){
+        console.log("\n\nS");
+    }else{
+        console.log("\n\nFail");
+    }
+
+
+    let unit = 120;
+
+    if(unit <= 50){
+        console.log("\n\nBill : " +unit*10);
+    }else if(unit <= 100){
+        console.log("\n\nBill : " +unit*15);
+    }else if(unit > 100){
+        console.log("\n\nBill : " +unit*20);
+    }
+
+
+    
+
