@@ -114,6 +114,8 @@ let marks = 70;
 
 
 
+    // switch case statement
+
 let day = 2;
 let dayName;
 
@@ -136,4 +138,11 @@ switch(day){
 }
 console.log("\n\n"+dayName);
 
+console.log("\n\n\n");
 
+
+// for loop
+
+for(let a =0; a <= 10; a++){
+    console.log(a);
+}
