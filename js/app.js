@@ -26,8 +26,39 @@ let customer = [];
 console.log("\n\n"+typeof customer);
 
 
+
 let customer2 = ["John", "Jane",10];
 console.log("\n\n"+ customer2);
 
 // obgect
 let customer1 = {};
+
+
+
+//-------------------------------------------------------
+// arricmatic operators (+,-,/,*)
+
+let x = 15;
+let y = 10;
+let add = x + y ;
+console.log(add);
+
+let min = x - y ;
+console.log(min);
+
+let mul = x * y ;
+console.log(mul);
+
+let div = x / y ;
+console.log(div);
+
+
+// (==) meken data type eka baln na....
+let z = 10;
+let w = "10";
+console.log("\n\n"+(z==w)); // true
+console.log(z!=w); // false
+
+// data type eka eqauld baladdi (===) gannwa..........
+console.log("\n\n"+(z===w)); // false
+console.log(z!==w); // true
