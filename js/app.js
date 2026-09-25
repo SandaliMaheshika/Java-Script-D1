@@ -30,7 +30,7 @@ console.log("\n\n"+typeof customer);
 let customer2 = ["John", "Jane",10];
 console.log("\n\n"+ customer2);
 
-// obgect
+// object
 let customer1 = {};
 
 
@@ -238,3 +238,6 @@ console.log(custoemr.name);
     name: "Saman",
  }
  console.log(custoemr1);
+
+
+ 
