@@ -240,4 +240,104 @@ console.log(custoemr.name);
  console.log(custoemr1);
 
 
+
+// Day2..........................................................................................................................................
+
+//constractor
+
+class custom{
+    name;
+    age;
+    address;
+
+    constructor(name,age,address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+
+}
+
+let cus1 = new custom("nimal",20,"colombo");
+console.log("\n\n"+cus1);
+
+let cus2 = new custom("kamal",30,"galle");
+console.log(cus2);
+
+
+
+////////----------------------------------
+
+let stu = [
+    {
+        name : "Nimal",
+        age : 20,
+        address : "Colombo"
+    },
+    {
+        name : "Kamal",
+        age : 30,
+        address : "Galle"
+    },
+
+    {
+        name : "Sunil",
+        age : 25,
+        address : "Kandy"
+    }
+
+]
+
+console.log("\n\n\n"+stu);
+console.log("\n"+stu[1].name);
+
+
+//-------------------------------------------------------------
+
+let stu2 = [
+    {
+        name : "Nimal",
+        age : 20,
+        address : "Colombo",
+        teacher : [
+            {
+                name : "John",
+                subject : "Maths"
+            },
+            {
+                name : "Jane",
+                subject : "Science",
+                school : [
+                    {
+                        name : "Aananda college",
+                        address : "Colombo"
+                    },
+                    {
+                        name : "Dharmaraja college",
+                        address : "Kandy"
+                    }
+                ],
+            }
+        ]
+    },
+
+    {
+        name : "Kamal",
+        age : 30,
+        address : "Galle"
+
+    }
+
+]
+
+console.log(stu2);
+console.log(stu2[1].teacher[1].school[1].name);
  
+
+
+
+
+//....................................DOM (Document Object Model).........................................................
+
+
+console.log(document);
